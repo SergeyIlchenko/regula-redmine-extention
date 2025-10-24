@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Regula Redmine CSS Injector",
+  "version": "2.1",
+  "description": "Inject styles to redmine",
+  "content_scripts": [
+    {
+      "matches": ["*://redmine.regulaforensics.com/*"],
+      "css": ["styles.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
