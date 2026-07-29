@@ -406,3 +406,12 @@ div.issue .attributes .attribute .label {
 #history .tab-content {
   border: none !important;
 }
+
+table.issues td.status.regula-status-in-test {
+  border: 2px solid rgba(255, 255, 255, 1) !important;
+  background: rgba(42, 138, 234, 0.2) !important;
+}
+
+table.issues td.status.regula-status-in-test a {
+  color: #ffffff !important;
+}

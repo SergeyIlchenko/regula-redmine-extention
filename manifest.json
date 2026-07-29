@@ -5,9 +5,16 @@
   "description": "Inject styles to redmine",
   "content_scripts": [
     {
-      "matches": ["*://redmine.regulaforensics.com/*"],
-      "css": ["styles.css"],
-      "run_at": "document_start"
+      "matches": [
+        "*://redmine.regulaforensics.com/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_start",
+      "js": [
+        "status-colors.js"
+      ]
     }
   ]
 }
