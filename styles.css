@@ -39,11 +39,18 @@ table td.status {
   background: rgba(150, 209, 253, 0.2);
 }
 
+/** status in test */
+.issues .status-11 .status {
+  border: 2px solid rgba(255, 255, 255, 1);
+  background: rgba(174, 150, 253, 0.2);
+}
+
 .issues .status-10 .status {
   border: 2px solid rgba(255, 255, 255, 1);
   background: rgba(253, 150, 244, 0.2);
 }
 
+/** status resolved */
 .issues .status-3 .status {
   border: 2px solid rgba(255, 255, 255, 1);
   background: rgba(165, 253, 150, 0.2);
@@ -94,6 +101,21 @@ table.list td.assigned_to a {
   box-sizing: content-box;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: block;
+}
+
+table.list td.fixed_version a {
+  padding: 5px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  color: black !important;
+  box-sizing: content-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+table.list td:nth-of-type(2n - 1) {
+  background: rgba(0,0,0,0.02);
 }
 
 table.list td.cf_20.user a {
