@@ -56,6 +56,12 @@ table td.status {
   background: rgba(165, 253, 150, 0.2);
 }
 
+/** status closed */
+.issues .status-5 .status {
+  border: 2px solid rgba(255, 255, 255, 1);
+  background: rgba(117, 165, 121, 0.5);
+}
+
 .issues .status-4 .status {
   border: 2px solid rgba(255, 255, 255, 1);
   background: rgba(253, 150, 150, 0.2);
